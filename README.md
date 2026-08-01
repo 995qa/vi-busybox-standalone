@@ -10,4 +10,3 @@ make
 # to install into /usr/local/bin:
 sudo make install
 ```
-for now until i decide (maybe) to make a Makefile for it
