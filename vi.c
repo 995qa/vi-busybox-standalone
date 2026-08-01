@@ -220,8 +220,7 @@ static void *memrchr(const void *s, int c, size_t n) {
 }
 #endif
 
-// the CRASHME code is unmaintained, and doesn't currently build
-#define ENABLE_FEATURE_VI_CRASHME 0
+
 #define IF_FEATURE_VI_CRASHME(...)
 
 

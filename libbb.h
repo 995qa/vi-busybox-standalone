@@ -59,7 +59,8 @@ typedef uint8_t smalluint;
 #define ENABLE_FEATURE_VI_ASK_TERMINAL 1
 #define ENABLE_FEATURE_VI_UNDO 1
 #define ENABLE_FEATURE_VI_UNDO_QUEUE 1
-#define ENABLE_FEATURE_VI_CRASHME 1
+// the CRASHME code is unmaintained, and doesn't currently build
+#define ENABLE_FEATURE_VI_CRASHME 0
 #define ENABLE_LOCALE_SUPPORT 1
 
 // Macro helper expansions (Solves the "expected ')'" syntax errors)
