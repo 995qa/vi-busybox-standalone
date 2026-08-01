@@ -35,5 +35,5 @@ jobs:
          public_key: ${{ secrets.PUBLIC }}
          private_key: ${{ secrets.PRIVATE }}
          key_passphrase: ${{ secrets.SECRET }}
-         target_repository: 995qa/bang-repo
+         target_repository: bang-linux/bang-repo
 
