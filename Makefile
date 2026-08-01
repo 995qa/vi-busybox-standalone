@@ -1,8 +1,8 @@
 vi:
 	gcc -O2 -Wall -I. -o vi vi.c main.c
 clean:
-	rm vi
+	rm -f vi
 install:
 	cp vi /usr/local/bin
 uninstall:
-	rm /usr/local/bin/vi
+	rm -f /usr/local/bin/vi
