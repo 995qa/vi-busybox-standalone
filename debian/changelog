@@ -1,3 +1,9 @@
+busybox-vi (1.36.0+bang1) stable; urgency=high
+
+  * vi should actually copy to /usr/bin now.
+
+ -- 995qa <zackerycole28@gmail.com>  Sat, 1 Aug 2026 00:03:45  -0400
+
 busybox-vi (1.36.0-standalone) stable; urgency=low
   
   * Initial release.
