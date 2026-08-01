@@ -6,6 +6,8 @@ Compiles fine for Linux and ravynOS 0.7.0 (macOS 10.15 with ravynOS SDK)
 ## Build for Linux GCC
 
 ```
-gcc -O2 -Wall -I. -o vi vi.c main.c
+make
+# to install into /usr/local/bin:
+sudo make install
 ```
 for now until i decide (maybe) to make a Makefile for it
