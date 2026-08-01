@@ -1,0 +1,3 @@
+This is a modified version of vi.c from Busybox.
+vi.c is Copyright (C) the Busybox Authors. My modifications to the source code (mostly in libbb.h and main.c) were mostly generated with AI. (Gemini 3.1 Pro)
+It is licensed under GPLv2 and it's terms can be found in LICENSE.

@@ -1,0 +1,11 @@
+Source: busybox-vi
+Maintainer: 995qa <zackerycole28@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13)
+
+Package: busybox-vi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Busybox's vi without Busybox
